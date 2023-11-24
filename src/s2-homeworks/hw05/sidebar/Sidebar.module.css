@@ -1,0 +1,61 @@
+
+    /* Стили для класса .sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease;
+}
+
+/* Стили для класса .sidebar.open */
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Стили для класса .background */
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для класса .nav */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Стили для класса .nav a */
+.nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Стили для класса .nav a:hover */
+.nav a:hover {
+    background-color: #ddd;
+}
+
+/* Стили для класса .nav a.active */
+.nav a.active {
+    font-weight: bold;
+}
+
+/* Стили для класса .close */
+.close {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Стили для класса .close img */
+.close img {
+    width: 20px;
+    height: 20px;
+}
